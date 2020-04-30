@@ -6,60 +6,63 @@ html{
     font-size: 75px;
 }
 .wrap{
-    width: 750px;
+    width: 10rem;
     background: #F3294B;
     margin: 0 auto;
 }
 .list{
     background: white;
-    margin: 20px 10px;
+    margin: .266667rem 0.1333rem;
 }
 .list-item{
     display: flex;
-    margin: 10px;
-    padding: 10px 0px;
+    margin: 0.1333rem;
+    padding: 0.1333rem 0rem;
     position: relative;
 }
 .list-item img{
-    width: 250px;
+    width: 3.3333rem;
 }
 .item-right{
-    padding:0px 16px;
+    padding:0rem 0.2133rem;
 }
 .item-right p:nth-child(1){
-    font-size: 18px;
+    font-size: 0.24rem;
     color: #000000;
-    padding-bottom: 10px;
+    padding-bottom: 0.1333rem;
+}
+.shop{
+    font-size: 0.32rem;
 }
 .item-right span{
     font-weight: bold;
 }
 .item-right .adv{
-    font-size: 18px;
+    font-size: 0.24rem;
     color: white;
     background: #f32a4c;
 }
 .item-right .price{
     color: red;
-    font-size: 22px;
+    font-size: 0.2933rem;
 }
 .item-right .prefer{
     color: red;
-    font-size: 20px;
+    font-size: 0.2667rem;
 }
 .item-right p:nth-last-of-type(1){
     color: #FF692F;
-    font-size: 20px;
+    font-size: 0.2667rem;
     font-weight: lighter;
-    padding-top: 10px;
+    padding-top: 0.1333rem;
 }
 .item-right .button{
     color: white;
     background: red;
-    font-size: 30px;
+    font-size: 0.4rem;
     font-weight: lighter;
-    padding: 2px 20px;
+    padding: 0.0267rem 0.2667rem;
     position: absolute;
-    right: 19px;
-    bottom: 15px;
+    right: 0.2533rem;
+    bottom: 0.2rem;
 }
